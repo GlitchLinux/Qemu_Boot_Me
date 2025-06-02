@@ -31,7 +31,7 @@ sync
 QEMU=qemu-system-x86_64  # Assuming using QEMU for 64-bit, adjust if needed
 
 # Set the QEMU command
-CMD="sudo $QEMU -L . -name 'BIOS Boot' -vga std -boot c -m $MEM -drive file=$DN,if=ide,index=0,media=disk,format=raw"
+CMD="sudo $QEMU -L . -name 'BIOS Boot - $DN' -vga std -boot c -m $MEM -drive file=$DN,if=ide,index=0,media=disk,format=raw"
 
 # Execute the QEMU command
 # echo $CMD
