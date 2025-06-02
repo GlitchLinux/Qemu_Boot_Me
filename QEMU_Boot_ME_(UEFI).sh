@@ -47,3 +47,4 @@ fi
 # lsblk or udevadm trigger --action=add may be used if needed.
 
 exit 0
+
